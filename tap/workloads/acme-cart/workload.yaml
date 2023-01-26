@@ -7,13 +7,16 @@ metadata:
     app.kubernetes.io/part-of: acme-fitness
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
-#  params:
+  params:
 #    - name: annotations
 #      value:
 #        autoscaling.knative.dev/minScale: "1"
+    - name: testing_pipeline_params
+      value:
+        testing-sub-path: "apps/acme-cart"
   source:
     git:
       ref:
         branch: Azure
-      url: https://github.com/jlafata/acme-fitness-store/tree/Azure/apps/acme-cart
-#    subPath: apps/acme-cart
+      url: https://github.com/jlafata/acme-fitness-store
+    subPath: apps/acme-cart
