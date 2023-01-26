@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acme-fitness
+  description: Acme Fitness App
+  tags:
+    - java
+    - spring
+    - node.js
+    - tanzu
+    - python
+    - dotnet
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=acme-fitness'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
