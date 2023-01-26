@@ -15,5 +15,5 @@ spec:
     git:
       ref:
         branch: Azure
-      url: https://github.com/jlafata/acme-fitness-store.git
+      url: https://github.com/jlafata/acme-fitness-store
     subPath: apps/acme-identity
