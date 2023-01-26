@@ -15,5 +15,5 @@ spec:
     git:
       ref:
         branch: Azure
-      url: https://github.com/jlafata/acme-fitness-store
-    subPath: apps/acme-cart
+      url: https://github.com/jlafata/acme-fitness-store/tree/Azure/apps/acme-cart
+#    subPath: apps/acme-cart
