@@ -7,10 +7,13 @@ metadata:
     app.kubernetes.io/part-of: acme-fitness
     apps.tanzu.vmware.com/has-tests: "true"
 spec:
-#  params:
-#    - name: annotations
-#      value:
-#        autoscaling.knative.dev/minScale: "1"
+  params:
+    #    - name: annotations
+    #      value:
+    #        autoscaling.knative.dev/minScale: "1"
+    - name: testing_pipeline_params
+      value:
+        testing-sub-path: "apps/acme-catalog"
   source:
     git:
       ref:
