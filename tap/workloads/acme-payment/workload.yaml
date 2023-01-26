@@ -14,6 +14,6 @@ spec:
   source:
     git:
       ref:
-        branch: main
+        branch: Azure
       url: https://github.com/jlafata/acme-fitness-store
     subPath: apps/acme-payment
